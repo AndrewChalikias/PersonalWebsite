@@ -36,7 +36,7 @@
     }
     main {
         width: 90%;
-        margin: 0;
+        margin: -100px 0 0 0;
     }
     #welcomeText {
         font-size: 40px;
@@ -46,5 +46,9 @@
     }
     #technologiesImage {
         width: 100%;
+    }
+    #gdpr {
+        bottom: 15px;
+        left: 15px;
     }
 }
