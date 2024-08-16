@@ -5,14 +5,19 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Andrew Chalikias | Personal Website</title>
     <meta name="description" content="I’m Andrew, a student developer in software & web Development.">
+    <!-- <a rel="me" href="https://mastodon.social/@andrewchalikias">Mastodon</a> -->
     <link rel="icon" type="image/x-icon" href="/media/icon.ico">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='/css/style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='/css/responsive.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/gdprwindow.css'>
     <script src='/js/main.js' async></script>
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- Search engine verifications -->
+    <meta name="yandex-verification" content="01018682268c666d" />
 </head>
 <body>
     <main>
@@ -23,8 +28,31 @@
             <button id="CTA" onclick="redirect()">Let's connect!</button>
         </div>
     </main>
-    <div id="gdpr">
-        <img src="media/gdpr_compliant.png" alt="">
+    <div id="gdprWindow">
+        <span>My commitment to you 🔒</span>
+        <p>
+            I, Andrew Chalikias, the owner of this website, am responsible for keeping your data safe. As a European citizen, 
+            I adhere to the GDPR law and follow best security practices to ensure that you are informed about the type of data 
+            collected and how it is controlled.
+        </p>
+        <table id="cookieTable">
+            <tr>
+                <td><b>Name</b></td>
+                <td>__test</td>
+            </tr>
+            <tr>
+                <td><b>Purpose</b></td>
+                <td>Checks if your browser has cookies enabled.</td>
+            </tr>
+            <tr>
+                <td><b>Expire</b></td>
+                <td>After 7 days.</td>
+            </tr>
+        </table>
+        <p>
+            This may change over time, so please check this tab regularly for updates.
+        </p>
     </div>
+    <div id="gdpr"></div>
 </body>
 </html>
