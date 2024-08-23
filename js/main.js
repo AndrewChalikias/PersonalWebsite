@@ -18,5 +18,5 @@ document.addEventListener("click", function closeGDPR(e) {
         gdprWindow.style.display = "none";
 }});
 function redirect() {
-    window.open("https://gr.linkedin.com/in/andrewchalikias");
+    window.open("https://github.com/AndrewChalikias");
 }
