@@ -1,3 +1,8 @@
+<!-- 
+ /)/)
+( . .)
+( づ hi fellow dev
+ -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,70 +10,158 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Andrew Chalikias | Personal Website</title>
     <meta name="description" content="I’m Andrew, a student developer in software & web Development.">
-    <link rel="icon" type="image/x-icon" href="media/icon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/media/fav.ico">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/responsive.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/gdprwindow.css'>
-    <script src='js/main.js' async></script>
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <!-- Search engine verifications -->
-    <meta name="yandex-verification" content="01018682268c666d" />
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/main.css'>
+    <link href="/assets/media/space-mono/space-mono.css" rel="stylesheet">
 </head>
 <body>
     <main>
-        <div id="mainContent">
-            <h1 id="welcomeText">Hey <span id="yourName" style="color: #4A249D; outline: none; padding: 5px;" contenteditable="true" spellcheck="false" onkeypress="return event.keyCode != 13;"></span>, I'm Andrew nice to meet you <span style="color: #FF0000;">♡</span></h1>
-            <p id="aboutText">Since you're here you may already know my field, here's some technologies I use and I'm trying to master:</p>
-            <img src="media/technologies.png" alt="" id="technologiesImage"><br>
-            <button id="CTA" onclick="redirect()">My projects</button>
+        <div id="container">
+            <div id="heroSection">
+                <div>
+                    <img id="profilePicture" src="/assets/media/profilePicture.png" alt="">
+                </div>
+                <div id="heroSectionInfoDiv">
+                    <h1>Andrew Chalikias</h1>
+                    <h2>Full-stack CS Student and digital privacy enthusiast.</h2>
+                </div>
+            </div>
+            <div id="mainContent">
+                <h3>Bio</h3>
+                <p>
+                    i like computer beep boop since two thousand and two :3
+                    i also like taking pictures of nice things *snaps*
+                </p>
+                <hr>
+                <h3>Projects</h3>
+                <div id="projects">
+                    <div>
+                        <div id="projectIconDiv">
+                            <img id="projectIcon" src="/assets/media/serendipiware.jpeg" alt="Serendipiware logo image">
+                        </div>
+                        <div>
+                            <h4>
+                                <a href="https://serendipiwa.re" target="_blank">Serendipiware · Founder</a>
+                            </h4>
+                            <p>
+                                An internet initiative I created with love to express my values and make a positive imprint through its actions.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="projectIconDiv">
+                            <img id="projectIcon" src="/assets/media/tor.webp" alt="Tor logo image">
+                        </div>
+                        <div>
+                            <h4>
+                                <a href="http://142.93.236.165/" target="_blank">Serendipity · Tor Middle-Relay</a>
+                            </h4>
+                            <p>
+                                A relay server anonynimizing the Tor traffic and boosting the network's security, ensuring a private internet.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="projectIconDiv">
+                            <img id="projectIcon" src="/assets/media/claire.jpg" alt="Claire AI logo image">
+                        </div>
+                        <div>
+                            <h4>
+                                <a href="https://itsclaire.netlify.app/" target="_blank">Claire · Your AI friend</a>
+                            </h4>
+                            <p>
+                                An experimental AI chatbot with a unique knowledge and personality, specialized to keep users company and provide companionship.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="projectIconDiv">
+                            <img id="projectIcon" src="/assets/media/lightinthedark.png" alt="LightInTheDark logo image">
+                        </div>
+                        <div>
+                            <h4>
+                                <a href="https://github.com/AndrewChalikias/lightinthedark" target="_blank">LightInTheDark · Search Engine [deprecated]</a>
+                            </h4>
+                            <p>
+                                A custom search engine that uses the Google Cloud JSON API and the Python Flask module to handle the search results, the web server and the URL routes.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="projectIconDiv">
+                            <img id="projectIcon" src="/assets/media/sparklygeorgia.svg" alt="SparklyGeorgia logo image">
+                        </div>
+                        <div>
+                            <h4>
+                                <a href="https://sparklygeorgia.com" target="_blank">SparklyGeorgia · Website</a>
+                            </h4>
+                            <p>
+                                A TailwindCSS landing page website for the "SparklyGeorgia" YouTube channel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h3>Computer knowledge</h3>
+                <p>A mix of many things :p I love learning new stuff and experimenting.</p>
+                <h4>Technical</h4>
+                <ul>
+                    <li>Linux · Git · Virtualization (KVM, VirtualBox, VMWare)</li>
+                </ul>
+                <h4>Back-end</h4>
+                <ul>
+                    <li>Python · PHP · API · Flask · SQL · WordPress · Ghost · WooCommerce · Shopify</li>
+                </ul>
+                <h4>Front-end</h4>
+                <ul>
+                    <li>JavaScript · TailwindCSS · HTML/CSS · Figma </li>
+                </ul>
+                <hr>
+                <h3>Experience/Education</h3>
+                <div id="experienceAndEducationDiv">
+                    <ul>
+                        <li>
+                            <h5>Juniortek srl · Intern WordPress Developer</h5>
+                            <h6>2020 - 2020</h6>
+                            <p>
+                                During my high school studies, I participated in the Erasmus program for 2 weeks and worked in Milan at a tech 
+                                company as part of a team, serving as a WordPress developer to create websites for the company’s clients.
+                            </p>
+                        </li>
+                        <li>
+                            <h5>Learn JavaScript Certificate · Codecademy</h5>
+                            <h6>Sep 2024 - No Expiry</h6>
+                            <p>
+                                <a href="https://www.codecademy.com/profiles/AndrewChalikias/certificates/705dcb15de0da4dd9d9fc4f3274b430e" target="_blank">Document</a>
+                            </p>
+                        </li>
+                        <li>
+                            <h5>Vocational Training Institute under the Greek Public Employment Service</h5>
+                            <h6>2022-2024</h6>
+                            <p>
+                                Diploma, Technical Applications of Informatics
+                            </p>
+                        </li>
+                        <li>
+                            <h5>Currently searching for an internship.</h5>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <h3>Let’s connect</h3>
+                <a href="https://www.linkedin.com/in/andrewchalikias" target="_blank">Linkedin</a>
+                <a href="https://x.com/serendipiware" target="_blank">X (Serendipiware)</a>
+                <a href="https://ko-fi.com/serendipiware" target="_blank">Support</a>
+                <hr>
+                <footer>
+                    <img src="/assets/media/microbanner.png" alt="" style="width: 100px;">
+                    <img src="/assets/media/netscape-1995.gif" alt="" style="width: 100px;">
+                    <img src="/assets/media/serendipiwareMicrobanner.png" alt="" style="width: 100px;">
+                    <h6>Created at 4AM :<</h6>
+                </footer>
+            </div>
         </div>
     </main>
-    <div id="gdprWindow">
-        <span>My commitment to you 🔒</span>
-        <hr>
-        <p>
-            I, Andrew Chalikias, the owner of this website, am responsible for keeping your data safe. I adhere to the GDPR law and follow best security practices to ensure that you are informed about the type of data 
-            collected and how it is controlled.
-        </p>
-        <table id="cookieTable">
-            <tr>
-                <td><b>Name</b></td>
-                <td>__test</td>
-            </tr>
-            <tr>
-                <td><b>Purpose</b></td>
-                <td>Checks if your browser has cookies enabled.</td>
-            </tr>
-            <tr>
-                <td><b>Expire</b></td>
-                <td>After 7 days.</td>
-            </tr>
-        </table>
-        <p>
-            This may change over time, so please check this tab regularly for updates.
-        </p>
-    </div>
-    <div id="gdpr"></div>
-    <!-- Default Statcounter code for Personal Website
-    https://andrewis.dev -->
-    <script type="text/javascript">
-    var sc_project=13034933; 
-    var sc_invisible=1; 
-    var sc_security="eb41fe09"; 
-    </script>
-    <script type="text/javascript"
-    src="https://www.statcounter.com/counter/counter.js"
-    async></script>
-    <noscript><div class="statcounter"><a title="real time web
-    analytics" href="https://statcounter.com/"
-    target="_blank"><img class="statcounter"
-    src="https://c.statcounter.com/13034933/0/eb41fe09/1/"
-    alt="real time web analytics"
-    referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-    <!-- End of Statcounter Code -->
 </body>
 </html>
