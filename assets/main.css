@@ -14,7 +14,7 @@ hr {
 }
 #heroSection {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0px 0 80px 0;
 }
 #profilePicture {
@@ -34,6 +34,9 @@ hr {
 #projects > div {
     display: flex;
     margin: 0 0 20px 0;
+}
+#projects img {
+    border-radius: 8px;
 }
 #projectIconDiv {
     margin: 5px 25px 0 0;
