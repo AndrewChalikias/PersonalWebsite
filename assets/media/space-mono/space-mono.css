@@ -1,9 +1,0 @@
-/* space-mono */
-@font-face {
-	font-family: Space Mono;
-	font-style: normal;
-	font-weight: 400;
-	font-stretch: 100%;
-	src: local("Space Mono Regular"), local("SpaceMono-Regular"), url(space-mono.woff2) format("woff2");
-}
-
